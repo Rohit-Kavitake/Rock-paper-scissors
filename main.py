@@ -22,9 +22,6 @@ scissors = PhotoImage(file="scissors.gif")
 
 elements = [rock , paper, scissors]
 
-
-
-
 def Rock():
     CPUChoice = random.choice(elements)
     playerChoice = '1'
@@ -103,7 +100,7 @@ widgetResult.place(x=0, y=100)
 widgetE = Button(root, text='End Game', command=quit, width=30)
 widgetE.place(x=50, y=220)
 
-namelbl = Label(root, text="Credits:- Rohit Kavitake")
+namelbl = Label(root, text="Author :- Rohit Kavitake")
 namelbl.place(x=180,y=270)
 
 root.title('Rock, Paper, Scissors! game')
